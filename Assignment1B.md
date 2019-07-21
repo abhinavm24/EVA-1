@@ -15,9 +15,9 @@ Hence Kernel can be called **feature extractor**. When convolved over source ima
 
 ### Channel
 
-Channel is a set of similar features in an image. 
+Channel is a set of similar features in an image, or has similar information from the image. 
 
-Eg - color red in the image can form a channel. In case of audio recording of vocal with guitar, piano etc., only the piano sound can be a channel.
+Eg - color blue in the image can form a channel. Or all the horizontal edges in the image can form a channel. In case of audio recording of vocal with guitar, piano etc., only the piano sound can be a channel.
 
 
 
