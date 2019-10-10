@@ -47,17 +47,17 @@ With batch_size=768 and epochs=30, **speed is 154s**
 
 Orig arch :
 
-![Orig_arch](C:\DataScience\EVA\Images\Orig_arch.svg)
+![Orig_arch](https://296830-909578-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/06/Artboard-1-5.svg)
 
 
 
 15 different model architectures were tried using residual blocks, extra blocks of conv-bn-relu, downsampling blocks.
 
-The final model is **Residual L1+L3** , gives 94% accuracy in **24 epochs and training time of 79s**. There are residual branches in the first and third layers.
+The final model is **Residual L1+L3** where residual branches are added after the first and third layers:, gives 94% accuracy in **24 epochs and training time of 79s**. 
+
+![residualL1L3](https://296830-909578-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/06/residualL1L3.svg)
 
 
-
-![residualL1L3](C:\DataScience\EVA\Images\residualL1L3.svg)
 
 **Step 5)** **Hyper parameter tuning** 
 
