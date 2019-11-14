@@ -134,6 +134,4 @@ Profiling operations can be highly memory intensive and can take up to 23GB of m
 
 ## Results
 
-While accuracy remained almost the same around 92 to 93%, the training time with and without pipeline were 1046s vs 709s. This kind of makes it imperative to observe and analyse the variations that are described below. 
-
-
+While accuracy remained almost the same around 92 to 93%, the training time without and with pipeline were 1385s vs 607s respectively. Speed more than doubled with pipelining.
