@@ -120,7 +120,7 @@ And can be viewed in the browser by loading the URL: http://localhost:6009
 
 ### Memory Footprint Caveat
 
-Profiling operations can be highly memory intensive and can take up to 23GB of memory as the profiler tends to write to disk at the end of the training operations, due to usage of the profile object. Intermittent writes can reduce this footprint drastically. Colab timeouts can be common in such cases. `top` outputs are shown below. 
+Profiling operations can be highly memory intensive and can take up to 23GB of memory as the profiler tends to write to disk at the end of the training operations, due to usage of the profile object. Intermittent writes can reduce this footprint drastically. Colab timeouts can be common in such cases. `Top` outputs are shown below. 
 
 #### No Profile
 
@@ -134,4 +134,4 @@ Profiling operations can be highly memory intensive and can take up to 23GB of m
 
 ## Results
 
-While accuracy remained almost the same around 92 to 93%, the training time without and with pipeline were 1385s vs 607s respectively. Speed more than doubled with pipelining.
+While accuracy remained almost the same around 92 to 93%, the training time without and with pipeline were 1385s vs 596s respectively. Speed more than doubled with pipelining.
